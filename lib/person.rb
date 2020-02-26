@@ -5,6 +5,8 @@ class Person
     :glove_size, :pant_length, :pant_width
     
     def initialize (:name)
+      @name = name
+    end
 
 
   
